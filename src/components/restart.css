@@ -1,0 +1,39 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btn {
+    height: 100px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 20%;
+    background-color: rgba(0, 181, 0, 0.756);
+    color: white;
+    font-family: "Fredoka One", sans-serif;
+    font-size: 2rem;
+    box-shadow: 0 0 8px #333;
+}
+
+.btn.reset{
+    background-color: rgba(227, 26, 26, 0.918);
+    margin: 20px 0 0 20px;
+}
+
+.btn:hover {
+    transform: scale(1.02);
+    background-color: rgba(9, 208, 9, 0.789);
+}
+
+.btn.reset:hover {
+    transform: scale(1.02);
+    background-color: rgb(255, 15, 15);
+}
+
+
+.btn:active {
+    transform: scale(.99);
+}
